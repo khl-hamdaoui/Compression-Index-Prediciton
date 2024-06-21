@@ -1,9 +1,11 @@
 import streamlit as st
 import pandas as pd
 import pickle
+import catboost
 
-# Load the single model
-model = pickle.load('catboost_cc.pkl')
+# Load the model
+with open('catboost_cc.pkl', 'rb') as file:
+    model = pickle.load(file)
 
 # Set Streamlit page configuration
 st.set_page_config(page_title='Compression Index Predictor', layout='wide')
