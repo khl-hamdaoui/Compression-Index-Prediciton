@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import joblib
-import catboost  # Ensure catboost is imported
 
 # Load the model
 with open('catboost_cc.pkl', 'rb') as file:
