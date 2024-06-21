@@ -1,1 +1,2 @@
-# Compression-Index-Prediciton
+# example-regression-streamlit
+Une app de regression
