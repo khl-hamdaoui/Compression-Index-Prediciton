@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load the single model
-model = pickle.load('catboost_cc.pkl', 'rb')
+model = pickle.load('catboost_cc.pkl')
 
 # Set Streamlit page configuration
 st.set_page_config(page_title='Compression Index Predictor', layout='wide')
