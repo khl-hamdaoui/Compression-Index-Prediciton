@@ -1,5 +1,5 @@
 joblib
-catboost==1.0.3  
+catboost
 numpy
 pandas
 streamlit
