@@ -3,3 +3,9 @@ numpy
 pandas
 streamlit
 scikit-learn
+graphviz
+matplotlib
+plotly
+scipy
+six
+python
