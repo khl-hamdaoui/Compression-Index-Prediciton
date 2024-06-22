@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from catboost import CatBoostRegressor
 import pickle
 
 # Load the single model
